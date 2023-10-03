@@ -1,0 +1,162 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #e8e6e7;
+    
+}
+
+.navigation{
+    padding: 0.5rem 1rem;
+    background-color: #1d1d1f;;
+}
+
+.navigation ul {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.75rem;
+    color: #888;
+}
+
+.navigation li{
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.navigation li:hover{
+    color: #fff;
+    border-bottom:0.4px solid #888 ;
+}
+
+.navigation .icons:hover{
+    border: none;
+}
+
+#hd-logo{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/*main*/
+
+.main-content{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3.5rem 2rem;
+}
+
+.main-content-wtn h2{
+    font-size:  2.5rem; 
+    margin-bottom: 1.75rem;
+}
+
+.main-content-wtn h1{
+    font-size:  2.5rem; 
+    margin-bottom: 1.5rem;
+    font-weight: 7b00;
+}
+
+.main-content-wtn p{
+    margin-bottom: 1.5rem;
+}
+
+.main-content-wtn h6{
+    color: #999;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.main-content-wtn h5 {
+    margin-bottom: 1.25rem;
+}
+
+.main-content-wtn button{
+    border-radius: 1.5rem;
+    border-style: none;
+    background: #0071e3;
+    padding: 8px 22px;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 1.75rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.main-content-wtn button:hover{
+    opacity: .85;
+   
+}
+
+.main-content-wtn #main-logo{
+   width: 2rem;
+}
+
+.main-content-wtn .content{
+    display: flex;
+    gap: 10px;
+}
+
+.content span{
+   
+   
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    box-shadow: 1px 1px #000;
+  
+    cursor: pointer;
+}
+
+.content span:hover{
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+
+#green{
+    background-color:#384937; 
+}
+
+#pink{
+    background-color: #f8ddd6;;
+}
+
+#blue{
+    background-color: #225f7e;
+}
+#black{
+    background-color: #192028;
+}
+#white{
+    background-color: #f7f2ee;
+}
+#red{
+    background-color: #ae0617;
+}
+
+.image{
+    z-index: 100;
+    transition: all 1s ease;
+}
+
+.image img{
+    width: 350px;
+   transform: rotate(-8deg);
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #445c42;
+    clip-path: circle(800px at right 1000px);
+}

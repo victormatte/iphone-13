@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Apple (Brasil)</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <ul>
+                <img src="logo.png" id="hd-logo" alt="apple logo">
+                <li>Mac</li>
+                <li>iPad</li>
+                <li>iPhone</li>
+                <li>Watch</li>
+                <li>AirPods</li>
+                <li>Acessórios</li>
+                <li>Suporte</li>
+                <li class="icons"><i class="fa-solid fa-bag-shopping"></i></li>
+                <li class="icons"><i class="fa-solid fa-magnifying-glass"></i></li>   
+            </ul>        
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-content">
+            <div class="circle"></div>
+            <div class="main-content-wtn">
+                <h2>
+                    <img src="logo.png" id="main-logo" alt="apple logo">iPhone13
+                </h2>
+                <h1>
+                    Seu novo superpoder.
+                </h1>
+                <p>
+                   Chip com velocidade impressionante. Um aumento notável na duração da bateria<br/> e novos recursos de foto e video. No iphone 13 você faz o que nunca pôde <br/>
+                   e ainda possui dois tamanhos.
+
+                </p>
+                <h6>
+                    A partir de R$ 6.599
+                </h6>
+                <a href="#"><button>Comprar</button></a>
+                <h5>
+                    Escolha sua cor favorita:
+                </h5>
+
+                <div class="content">
+                    <span id="green" onclick="clicou('green.png'); circlechange('#384937')"></span>
+                    <span id="pink" onclick="clicou('pink.png'); circlechange('#ffc9cf')" ></span>
+                    <span id="blue" onclick="clicou('blue.png'); circlechange('#0b839e')" ></span>
+                    <span id="black" onclick="clicou('black.png'); circlechange('#192028')" ></span>
+                    <span id="white" onclick="clicou('white.png'); circlechange('#f7f2ee') "></span>
+                    <span id="red" onclick="clicou('red.png');circlechange('#ae0617')" ></span>
+                </div>
+           
+            </div>
+          
+                <div class="image">
+                    <img src="green.png" alt="iphone" id="iphone-pic">
+                </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
